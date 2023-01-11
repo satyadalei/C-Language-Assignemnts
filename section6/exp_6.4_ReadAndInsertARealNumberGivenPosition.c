@@ -15,7 +15,6 @@ void main()
    {
      scanf("%i",&numbers[i]);
    }
-   numbers[n] = 0;
    /* stepping all elements one step */
    printf("\n Enter the number you want to insert \n");
     scanf("%i",&insertedNumber);
