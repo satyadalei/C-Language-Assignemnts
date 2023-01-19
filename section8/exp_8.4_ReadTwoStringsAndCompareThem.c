@@ -41,7 +41,7 @@ void main()
         maxLength = lengthString2;
     }
     
-    /*Comparision of strings*/
+    /*Comparision of stringscd*/
     for ( i = 0; i < maxLength; i++)
     {
         if (string1[i] != string2[i])
