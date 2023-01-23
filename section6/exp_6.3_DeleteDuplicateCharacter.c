@@ -15,17 +15,17 @@ void main()
    {
       scanf("%s", &charactersArray[i]);
    }
-   
+
    for(i = 0; i < n; i++)
    {
-     /* 
+     /*
         This (if statement below) check of null character is helful to avoid un nessesary check because
-        we are replacing all duplicate characters with null characters so that computer 
+        we are replacing all duplicate characters with null characters so that computer
         will avoid chacking again.
      */
      if (charactersArray[i] != '\0')
      {
-        /* storing the character in separate variable because we will 
+        /* storing the character in separate variable because we will
         replace all duplicate elements with null character */
         currentCharacter = charactersArray[i];
         for (j = 0; j < n; j++)
@@ -46,13 +46,13 @@ void main()
    {
     reducedCharctersArray[i] = ' ';
    }
-   
+
    printf("\n The new character array is : \n");
    for ( i = 0; i < n; i++)
    {
       printf(" %c ",reducedCharctersArray[i]);
    }
-   
+
 
    printf("\n Program Ends here \n");
    getch();
