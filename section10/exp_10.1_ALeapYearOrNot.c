@@ -1,6 +1,26 @@
 /* This program takes a year and tells whether it is a leap year or not */
 #include<stdio.h>
 #include<conio.h>
+
+int LeapYear(int x);
+void main()
+{
+    int year,leapYear;
+    printf("\n This program takes a year and tells whether it is a leap year or not \n");
+    printf("\n Enter the year \n");
+    scanf("%i",&year);
+    leapYear = LeapYear(year);
+    if (leapYear == 1)
+    {
+        printf("\n The year %i is a leap year \n",year);
+    }
+    else if (leapYear == 0)
+    {
+        printf("\n The year %i is not a leap year \n",year);
+    }
+    printf("\n---------------Program Ends------------------\n");
+    getch();
+}
 /* keep the function name capitalized */
 int LeapYear(int x)
 {
@@ -29,23 +49,4 @@ int LeapYear(int x)
     {
        return 0;
     }
-}
-int LeapYear(int x);
-void main()
-{
-    int year,leapYear;
-    printf("\n This program takes a year and tells whether it is a leap year or not \n");
-    printf("\n Enter the year \n");
-    scanf("%i",&year);
-    leapYear = LeapYear(year);
-    if (leapYear == 1)
-    {
-        printf("\n The year %i is a leap year \n",year);
-    }
-    else if (leapYear == 0)
-    {
-        printf("\n The year %i is not a leap year \n",year);
-    }
-    printf("\n---------------Program Ends------------------\n");
-    getch();
 }

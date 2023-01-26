@@ -1,2 +1,4 @@
 # *.exe means all .exe files will be ignored in all corresponding and child folders
 *.exe
+*.o
+./section7/a.exe
