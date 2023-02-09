@@ -1,6 +1,6 @@
 /* This program prints a triangular shaped collection of stars */
 #include<stdio.h>
-voud main()
+void main()
 {
     int i,j,k ,noOfRows;
     noOfRows = 7 ; /*This number has to be odd*/
@@ -13,7 +13,6 @@ voud main()
         { 
           printf(" * ");
         }
-        for(k=initialNum)
       }
     }
 }

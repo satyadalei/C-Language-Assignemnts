@@ -13,41 +13,12 @@ void main()
     Capitalize(string);
     /*Printing of string*/
     printf("\n Your string has been capitalized \n");
-    for ( i = 0; i < 100; i++)
-    {
-      if (string[i] == '\0')
-      {
-        break;
-      }
-      else
-      {
-        printf("%c",string[i]);
-      }
-    }
+    puts(string);
     
     printf("\n -----------Program Ends-------------- \n");
     getch();
 }
 void Capitalize( char string[] )
 {
-  int i,a,b,charAsciiValue;
-  char currentChar;
-  for (i = 0; i < 100; i++)
-  {
-    if ( string[i] == '\0' )
-    {
-        break;  
-    }
-    else
-    {
-      currentChar = string[i];
-      charAsciiValue = currentChar;
-      if (97 <= charAsciiValue &&  charAsciiValue <= 122)
-      {
-        charAsciiValue = charAsciiValue - 32 ;
-        string[i] = charAsciiValue;
-      }
-    }
-  }
-  
+  strupr(string);
 }
