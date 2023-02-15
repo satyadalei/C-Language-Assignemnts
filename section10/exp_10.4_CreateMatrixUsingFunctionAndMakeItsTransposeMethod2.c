@@ -5,13 +5,13 @@ int ColSize;
 void CreatMatrix(int numbers[][ColSize], int m, int n);
 void main()
 {
-   int m, n;
+   int m, n,i,j;
    printf("\n This program takes a mXn matrix  using function and then makes it's transpose \n");
    printf("\n Enter value of m and n to creat mXn matrix :\n");
    scanf("%i%i", &m, &n);
    int numbers[m][n];
    ColSize = n;
-   printf("\n Enter %i numbers \n", m * n);
+   printf("\n Enter %i numbers \n", m*n);
    for (i = 0; i < m; i++)
    {
       for (j = 0; j < n; j++)
@@ -26,7 +26,7 @@ void main()
 void CreatMatrix(int numbers[][ColSize], int m, int n)
 {
    int i, j, num;
-   //  int transposeMatrix[n][m];
+   int transposeMatrix[n][m];
    // printf("\n Enter %i numbers \n",m*n);
    // for ( i = 0; i < m; i++)
    // {

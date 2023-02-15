@@ -5,7 +5,6 @@ swaps them --> method 1 using third variable*/
 #include <conio.h>
 void main()
 {
-    printf("Hello world");
     int num1 ;
     int num2 ;
     printf("Enter the first numer ");
