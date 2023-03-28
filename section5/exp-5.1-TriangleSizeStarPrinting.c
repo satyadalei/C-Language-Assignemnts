@@ -2,7 +2,7 @@
 #include<stdio.h>
 void main()
 {
-    int i,j,k ,noOfRows;
+    int i,j,k,noOfRows;
     noOfRows = 7 ; /*This number has to be odd*/
     printf("\n This program prints a triangular shaped collection of stars \n");
     for(i=noOfRows; i<= (noOfRows+1)/2 ;i-- )
